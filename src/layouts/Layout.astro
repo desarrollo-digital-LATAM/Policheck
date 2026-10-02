@@ -1,19 +1,19 @@
 ---
 const {
-	title = 'POLICHECK | Pruebas de Polígrafo y Evaluación de Confianza',
-	description = 'Conoce los servicios de POLICHECK para pruebas de polígrafo y evaluación poligráfica en Perú. Atención profesional, confidencial y personalizada.',
+	title = 'ALBERLIC | Pruebas de Polígrafo y Evaluación de Confianza',
+	description = 'Conoce los servicios de ALBERLIC para pruebas de polígrafo y evaluación poligráfica en Perú. Atención profesional, confidencial y personalizada.',
 } = Astro.props;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
-const socialImage = Astro.site ? new URL('/images/og-policheck.png', Astro.site).href : undefined;
+const socialImage = Astro.site ? new URL('/images/og-alberlic.png', Astro.site).href : undefined;
 const organization = {
 	'@type': 'Organization',
-	name: 'POLICHECK',
+	name: 'ALBERLIC',
 	telephone: '+51966994027',
 	...(Astro.site ? { url: Astro.site.href } : {}),
 };
 const structuredData = {
 	'@context': 'https://schema.org',
-	'@graph': [organization, ...(Astro.site ? [{ '@type': 'WebSite', name: 'POLICHECK', url: Astro.site.href }] : [])],
+	'@graph': [organization, ...(Astro.site ? [{ '@type': 'WebSite', name: 'ALBERLIC', url: Astro.site.href }] : [])],
 };
 ---
 
@@ -38,12 +38,12 @@ const structuredData = {
 		{socialImage && <meta property="og:image:type" content="image/png" />}
 		{socialImage && <meta property="og:image:width" content="1200" />}
 		{socialImage && <meta property="og:image:height" content="630" />}
-		{socialImage && <meta property="og:image:alt" content="POLICHECK: Pruebas de Polígrafo y Evaluación de Confianza" />}
+		{socialImage && <meta property="og:image:alt" content="ALBERLIC: Pruebas de Polígrafo y Evaluación de Confianza" />}
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
 		{socialImage && <meta name="twitter:image" content={socialImage} />}
-		{socialImage && <meta name="twitter:image:alt" content="POLICHECK: Pruebas de Polígrafo y Evaluación de Confianza" />}
+		{socialImage && <meta name="twitter:image:alt" content="ALBERLIC: Pruebas de Polígrafo y Evaluación de Confianza" />}
 		<script type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
 		<title>{title}</title>
 	</head>

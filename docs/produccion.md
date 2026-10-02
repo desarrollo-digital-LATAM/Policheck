@@ -1,9 +1,9 @@
 # Configuración de producción
 
-Antes de publicar, define `PUBLIC_SITE_URL` con el dominio HTTPS real de POLICHECK. No se debe usar `localhost` ni un dominio de ejemplo en producción.
+Antes de publicar, define `PUBLIC_SITE_URL` con el dominio HTTPS real de ALBERLIC. No se debe usar `localhost` ni un dominio de ejemplo en producción.
 
 ```sh
-PUBLIC_SITE_URL=https://DOMINIO-REAL-DE-POLICHECK npm run build
+PUBLIC_SITE_URL=https://DOMINIO-REAL-DE-ALBERLIC npm run build
 ```
 
 Esta variable configura `site` en `astro.config.mjs` y permite generar:

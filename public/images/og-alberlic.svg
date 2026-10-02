@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
-  <title id="title">POLICHECK</title>
+  <title id="title">ALBERLIC</title>
   <desc id="description">Pruebas de Polígrafo y Evaluación de Confianza</desc>
   <rect width="1200" height="630" fill="#f4f1e9"/>
   <circle cx="1030" cy="90" r="250" fill="#d7f35a" opacity=".72"/>
   <circle cx="1140" cy="550" r="220" fill="#e2e9bc"/>
   <rect x="90" y="100" width="92" height="92" rx="24" fill="#d7f35a"/>
   <path d="M112 160v-38h18v38h10V102h18v58h10V88h18v72c0 9-7 16-16 16h-42c-9 0-16-7-16-16Z" fill="#172422"/>
-  <text x="90" y="275" fill="#172422" font-family="Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-2">POLICHECK</text>
+  <text x="90" y="275" fill="#172422" font-family="Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-2">ALBERLIC</text>
   <text x="90" y="370" fill="#172422" font-family="Georgia, serif" font-size="76">Pruebas de Polígrafo y</text>
   <text x="90" y="455" fill="#7b9612" font-family="Georgia, serif" font-size="76">Evaluación de Confianza</text>
   <text x="94" y="526" fill="#48564e" font-family="Arial, sans-serif" font-size="25">Información clara. Atención profesional. Consulta por WhatsApp.</text>

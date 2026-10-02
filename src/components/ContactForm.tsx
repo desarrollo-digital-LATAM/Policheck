@@ -47,7 +47,7 @@ export default function ContactForm() {
 
     setStatus('submitting');
     const emailLine = values.email.trim() ? `\nMi correo: ${values.email.trim()}` : '';
-    const message = `Hola, soy ${values.name.trim()}.\n\nEstoy interesado(a) en: ${values.service}\n\nMi teléfono / WhatsApp: ${values.phone.trim()}${emailLine}\n\nMi consulta:\n${values.message.trim()}\n\nQuisiera recibir información sobre POLICHECK.`;
+    const message = `Hola, soy ${values.name.trim()}.\n\nEstoy interesado(a) en: ${values.service}\n\nMi teléfono / WhatsApp: ${values.phone.trim()}${emailLine}\n\nMi consulta:\n${values.message.trim()}\n\nQuisiera recibir información sobre ALBERLIC.`;
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     // Open in the submit event so mobile browsers keep the WhatsApp navigation as user initiated.

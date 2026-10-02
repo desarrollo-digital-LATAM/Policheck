@@ -1,6 +1,6 @@
-# POLICHECK
+# ALBERLIC
 
-Landing estática para POLICHECK, servicios de evaluación poligráfica y orientación profesional de confianza.
+Landing estática para ALBERLIC, servicios de evaluación poligráfica y orientación profesional de confianza.
 
 ## Desarrollo
 

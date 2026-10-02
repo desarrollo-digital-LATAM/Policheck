@@ -4,7 +4,7 @@ Fecha de revisión: 2026
 
 ## SEO técnico
 
-- ✅ `title` descriptivo: `POLICHECK | Pruebas de Polígrafo y Evaluación de Confianza`.
+- ✅ `title` descriptivo: `ALBERLIC | Pruebas de Polígrafo y Evaluación de Confianza`.
 - ✅ Meta description orientada a pruebas de polígrafo, evaluación poligráfica y Perú.
 - ⚠️ Canonical, sitemap y URLs sociales quedan activos al definir `PUBLIC_SITE_URL` con el dominio HTTPS real.
 - ✅ `robots.txt` permite el rastreo normal; añade la directiva `Sitemap` cuando existe el dominio configurado.

@@ -1,4 +1,4 @@
-# Roadmap de POLICHECK
+# Roadmap de ALBERLIC
 
 ## Fase 1: Landing informativa
 
@@ -15,7 +15,7 @@
 
 ## Fase 3: Información operativa
 
-- [ ] Publicar condiciones de atención revisadas por POLICHECK.
+- [ ] Publicar condiciones de atención revisadas por ALBERLIC.
 - [ ] Añadir una política de privacidad cuando se implemente captación de datos propia.
 - [ ] Considerar un canal de seguimiento solo si existe una necesidad operativa real.
 

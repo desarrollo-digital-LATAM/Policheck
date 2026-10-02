@@ -1,8 +1,8 @@
-# Contexto de POLICHECK
+# Contexto de ALBERLIC
 
 ## Qué es
 
-POLICHECK presenta servicios de evaluación poligráfica y orientación para personas y organizaciones que necesitan consultar un caso relacionado con confianza.
+ALBERLIC presenta servicios de evaluación poligráfica y orientación para personas y organizaciones que necesitan consultar un caso relacionado con confianza.
 
 ## Enfoque
 
