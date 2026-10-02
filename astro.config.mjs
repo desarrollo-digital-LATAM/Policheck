@@ -5,8 +5,12 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { loadEnv } from 'vite';
 
-// Set PUBLIC_SITE_URL to the final HTTPS domain before the production build.
+// The production build must know the canonical URL so Astro can emit absolute SEO URLs.
 const { PUBLIC_SITE_URL: site } = loadEnv(process.env.NODE_ENV ?? '', process.cwd(), 'PUBLIC_');
+
+if (process.env.VERCEL_ENV === 'production' && site !== 'https://alberlic.com') {
+  throw new Error('PUBLIC_SITE_URL must be https://alberlic.com for Vercel Production builds.');
+}
 
 export default defineConfig({
   site,
