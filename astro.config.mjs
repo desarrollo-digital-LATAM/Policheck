@@ -6,10 +6,10 @@ import tailwindcss from "@tailwindcss/vite";
 import { loadEnv } from "vite";
 
 // The production build must know the canonical URL so Astro can emit absolute SEO URLs.
-const { PUBLIC_SITE_URL: site } = loadEnv(
+const { SITE_URL: site } = loadEnv(
   process.env.NODE_ENV ?? "",
   process.cwd(),
-  "PUBLIC_",
+  "SITE_",
 );
 
 if (

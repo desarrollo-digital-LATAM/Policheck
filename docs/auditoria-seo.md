@@ -6,7 +6,7 @@ Fecha de revisión: 2026
 
 - ✅ `title` descriptivo: `ALBERLIC | Pruebas de Polígrafo y Evaluación de Confianza`.
 - ✅ Meta description orientada a pruebas de polígrafo, evaluación poligráfica y Perú.
-- ⚠️ Canonical, sitemap y URLs sociales quedan activos al definir `PUBLIC_SITE_URL` con el dominio HTTPS real.
+- ⚠️ Canonical, sitemap y URLs sociales quedan activos al definir `SITE_URL` con el dominio HTTPS real.
 - ✅ `robots.txt` permite el rastreo normal; añade la directiva `Sitemap` cuando existe el dominio configurado.
 - ✅ Open Graph y Twitter Card con imagen PNG propia de 1200x630.
 - ✅ Favicon SVG propio, sin referencia al favicon de Astro.
@@ -35,6 +35,6 @@ Fecha de revisión: 2026
 
 ## Pendientes antes de producción
 
-- ⚠️ Definir `PUBLIC_SITE_URL` con el dominio HTTPS oficial. Consulta `docs/produccion.md`.
+- ⚠️ Definir `SITE_URL` con el dominio HTTPS oficial. Consulta `docs/produccion.md`.
 - ⚠️ Validar en el futuro cualquier dirección, correo, política de privacidad, acreditación o dato empresarial antes de publicarlo.
 - ⚠️ Medir rastreo, indexación y rendimiento reales una vez que el sitio esté publicado.
