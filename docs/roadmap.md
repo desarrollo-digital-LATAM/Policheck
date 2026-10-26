@@ -1,5 +1,15 @@
 # Roadmap de ALBERLIC
 
+## Rediseño corporativo
+
+- [x] Simplificar la homepage para identificar INVERSIONES ALBERLIC y sus dos líneas en la primera pantalla.
+- [x] Mantener rutas independientes para comunicación publicitaria y evaluación poligráfica.
+- [x] Actualizar la identidad cromática a una paleta corporativa azul y conservar las funcionalidades de polígrafo.
+- [x] Rediseñar la homepage con hero editorial fotográfico, identidad tipográfica y paneles fotográficos de acceso a las líneas.
+- [ ] Confirmar con el cliente si la línea 02 ofrece servicios adicionales a polígrafo y evaluación de confianza antes de describirlos.
+- [ ] Validar visualmente en dispositivos desktop, tablet y móvil antes del despliegue.
+- [x] Documentar procedencia y licencia de las fotografías de la homepage.
+
 ## Fase 1: Landing informativa
 
 - [x] Presentar los servicios y el proceso general.

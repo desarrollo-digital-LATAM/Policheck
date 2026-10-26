@@ -1,3 +1,14 @@
 @import "tailwindcss";
 
-/* The landing page uses component-scoped styles; this file keeps the starter's global entry point. */
+/* Shared corporate identity tokens. */
+:root {
+  --alberlic-navy: #111f40;
+  --alberlic-blue: #1669a5;
+  --alberlic-turquoise: #5bcdd3;
+  --alberlic-warm-accent: #f3ae69;
+  --alberlic-white: #ffffff;
+  --alberlic-background: #f2f6fa;
+  --alberlic-text: #111f40;
+  --alberlic-muted: #526575;
+  --alberlic-border: #d6e0e8;
+}

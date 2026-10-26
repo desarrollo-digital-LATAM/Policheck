@@ -1,20 +1,20 @@
 ---
 const {
-	title = 'ALBERLIC | Pruebas de Polígrafo y Evaluación de Confianza',
-	description = 'Conoce los servicios de ALBERLIC para pruebas de polígrafo y evaluación poligráfica en Perú. Atención profesional, confidencial y personalizada.',
-	ogImageAlt = 'ALBERLIC, soluciones profesionales para empresas y personas',
+	title = 'INVERSIONES ALBERLIC | Evaluación poligráfica y confianza',
+	description = 'INVERSIONES ALBERLIC presenta sus líneas de negocio: comunicación y producción publicitaria, y servicios de evaluación poligráfica.',
+	ogImageAlt = 'INVERSIONES ALBERLIC, líneas de negocio',
 } = Astro.props;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
 const socialImage = Astro.site ? new URL('/images/og-alberlic.png', Astro.site).href : undefined;
 const organization = {
 	'@type': 'Organization',
-	name: 'ALBERLIC',
+	name: 'INVERSIONES ALBERLIC',
 	telephone: '+51966994027',
 	...(Astro.site ? { url: Astro.site.href } : {}),
 };
 const structuredData = {
 	'@context': 'https://schema.org',
-	'@graph': [organization, ...(Astro.site ? [{ '@type': 'WebSite', name: 'ALBERLIC', url: Astro.site.href }] : [])],
+	'@graph': [organization, ...(Astro.site ? [{ '@type': 'WebSite', name: 'INVERSIONES ALBERLIC', url: Astro.site.href }] : [])],
 };
 ---
 
@@ -24,7 +24,7 @@ const structuredData = {
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content={description} />
-		<meta name="theme-color" content="#f4f1e9" />
+		<meta name="theme-color" content="#F4F7FA" />
 		{canonical && <link rel="canonical" href={canonical} />}
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
