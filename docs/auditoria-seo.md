@@ -4,6 +4,10 @@ Fecha de revisión: 2026
 
 ## SEO técnico
 
+- ✅ Metadata diferenciada para homepage corporativa, comunicación publicitaria y evaluación poligráfica.
+- ⚠️ El contenido poligráfico antes servido en `/` ahora tiene URL `/poligrafo/`; revisar e indexar esa ruta en Search Console tras despliegue. La raíz no redirige.
+- ⚠️ Verificación HTTP del 26-10-2026: `alberlic.com` redirige (308) a `www.alberlic.com`; www responde 200, aunque la configuración documentada fija `SITE_URL=https://alberlic.com`. Alinear la canonical con el dominio final antes del despliegue; este cambio no modifica dominios ni DNS.
+
 - ✅ `title` descriptivo: `ALBERLIC | Pruebas de Polígrafo y Evaluación de Confianza`.
 - ✅ Meta description orientada a pruebas de polígrafo, evaluación poligráfica y Perú.
 - ⚠️ Canonical, sitemap y URLs sociales quedan activos al definir `SITE_URL` con el dominio HTTPS real.

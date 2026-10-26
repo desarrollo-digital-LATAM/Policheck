@@ -1,6 +1,6 @@
 # ALBERLIC
 
-Landing estática para ALBERLIC, servicios de evaluación poligráfica y orientación profesional de confianza.
+Sitio corporativo estático de ALBERLIC con dos líneas: comunicación y producción publicitaria (`/comunicacion-publicitaria/`) y evaluación poligráfica (`/poligrafo/`).
 
 ## Desarrollo
 
